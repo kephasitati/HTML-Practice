@@ -159,6 +159,19 @@
                 <input type="submit" value="Submit">
             </form>
 
+            <!-- HTML Validation -->
+            <h2>HTML Validation</h2>
+            <form action="/submit-form" method="post">
+                    <label for="username">Username (4-8 characters):</label>
+                    <input type="text" id="username" name="username" required minlength="4" maxlength="8" placeholder="Username">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@domain.com">
+
+                    <button type="submit">Submit</button>
+            </form>
+            <p><em>Validation ensures that users fill out forms in the correct format.</em></p>
+
             <!-- Text Formatting-->
             <h2>Text Formatting</h2>
                     <p>This is a <em>Italics</em> for HTML</p>
